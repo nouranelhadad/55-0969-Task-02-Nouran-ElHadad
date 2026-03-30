@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY target/*.jar app.jar
 
-ENV USER_NAME=Docker_Nouran_ElHadad
-ENV ID=Docker_55-0969
+ENV USER_NAME="Nouran ElHadad"
+ENV ID="55-0969"
 
 EXPOSE 8080
 
