@@ -1,8 +1,8 @@
 package com.example.lab05.service;
 
 import com.example.lab05.dto.DashboardResponse;
-import com.example.lab05.model.mongo.PurchaseReceipt;
 import com.example.lab05.model.cassandra.SensorReading;
+import com.example.lab05.model.mongo.PurchaseReceipt;
 import com.example.lab05.model.neo4j.Person;
 import com.example.lab05.repository.mongo.PurchaseReceiptRepository;
 import com.example.lab05.service.SensorService;

@@ -1,7 +1,7 @@
 package com.example.lab05.dto;
 
-import com.example.lab05.model.mongo.PurchaseReceipt;
 import com.example.lab05.model.cassandra.SensorReading;
+import com.example.lab05.model.mongo.PurchaseReceipt;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
