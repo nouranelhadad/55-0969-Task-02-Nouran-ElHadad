@@ -23,6 +23,9 @@ public class ProductService {
         return productRepository.findAll();
     }
 
+    public void saveProduct(Product product) {
+        productRepository.save(product);
+    }
     // TODO (Section 3 — Redis):
     // Add @Cacheable(value = "products", key = "#id") to this method.
     // Add a log statement: log.info("CACHE MISS: fetching product {} from DB", id);

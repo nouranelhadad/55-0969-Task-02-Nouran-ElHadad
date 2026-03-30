@@ -29,7 +29,6 @@ public class SocialGraphService {
         Person person = new Person(name);
         return personRepository.save(person);
     }
-
     // TODO: Implement follow(String followerName, String followeeName)
     //   - Find both persons by name via PersonRepository (throw if not found)
     //   - Add followee to follower's following list
